@@ -26,6 +26,9 @@ const Hero = () => {
 					</Link>
 				</ButtonWrapper>
 			</Container>
+			<Container>
+				
+			</Container>
 		</HeroSection>
 	);
 };
