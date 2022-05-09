@@ -16,7 +16,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Section>
-        <Heading>How to Get Started On Presta Sign</Heading>
+        <Heading>How does it work?</Heading>
       </Section>
       <Content {...stepOne} />
       <Content {...stepTwo} />

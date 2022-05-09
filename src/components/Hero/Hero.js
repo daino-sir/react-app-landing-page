@@ -22,7 +22,7 @@ const Hero = () => {
 					<HeroButton>Sign Up</HeroButton>
 					</Link>
 					<Link>
-						<Button>Sign In</Button>
+						<HeroButton>Sign In</HeroButton>
 					</Link>
 				</ButtonWrapper>
 			</Container>

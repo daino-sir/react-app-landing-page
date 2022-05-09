@@ -24,7 +24,7 @@ export const MainHeading = styled.h1`
 	font-size: clamp(2.3rem, 6vw, 4.5rem);
 	margin-top: 2rem;
 	margin-bottom: 0.5rem;
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#000')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : '#3A73BE')};
 	width: 100%;
 	letter-spacing: 4px;
 	text-align: left;
@@ -36,10 +36,11 @@ export const Heading = styled.h2`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : '#FF0000')};
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};
+	text-decoration: underline;
 `;
 export const TextWrapper = styled.span`
 	color: ${({ color }) => (color ? color : '')};
@@ -54,7 +55,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : '#f99d6c')};
+	background: ${({ inverse }) => (inverse ? 'white' : '#3A73BE')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
@@ -108,16 +109,16 @@ export const Button = styled.button`
 	white-space: nowrap;
 	padding: 10px 20px;
 	font-size: 16px;
-	color: #f99d6c;
+	color: #3A73BE;
 	font-weight: 500;
 	outline: none;
-	border: 2px solid #f99d6c;
+	border: 2px solid #3A73BE;
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
 
 	&:before {
-		background: #f99d6c;
+		background: #3A73BE;
 		content: '';
 		position: absolute;
 		top: 50%;

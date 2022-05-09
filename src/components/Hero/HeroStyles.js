@@ -4,7 +4,7 @@ import { Button } from '../../globalStyles';
 export const HeroSection = styled.section`
 	height: 100vh;
 	background-position: center;
-	background-size: cover;
+	background-color: white;
 	padding-top: clamp(70px, 25vh, 220px);
 	`;
 
@@ -56,7 +56,7 @@ export const HeroText = styled.p`
 	line-height: 24px;
 	text-align: left;
 	letter-spacing: 2px;
-	color: #000;
+	color: #3A73BE;
 	animation: fadeIn 1s;
 	`;
 
@@ -70,20 +70,10 @@ export const ButtonWrapper = styled.div`
 	`;
 
 export const HeroButton = styled(Button)`
-	color: white;
-
-	&:before {
-		background: #f99d6c;
-		height: 500%;
-	}
-
-	&:hover:before {
-		height: 0%;
-	}
-
+	color: #FFFFFF;
+	background: #FF0000;
+	border: 2px #FF0000 solid;
 	&:hover {
-		color: #f99d6c;
 		font-weight: 500;
-		border: 2px #f99d6c solid;
 	}
 `;
