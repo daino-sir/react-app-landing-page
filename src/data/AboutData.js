@@ -4,7 +4,7 @@ export const stepOne = {
     topLine: {
         text: 'Step 1',
     },
-    headline: "Download the Nyuza App",
+    headline: "Step One:",
     description: "Go to your phone's app store, search for Nyuza. Download and install the Nyuza App.",
     buttonLabel: "Store",
     imgStart: 'start',
@@ -17,7 +17,7 @@ export const stepTwo = {
     topLine: {
         text: "Step 2",
     },
-    headline: "Set Up Your Personalized Account",
+    headline: "Step 2",
     description: 'Register your personalized Nyuza account within seconds',
     imgStart: 'start',
     img: './assets/step2.png',
@@ -29,7 +29,7 @@ export const stepThree = {
 	topLine: {
 		text: 'Step 3',
 	},
-	headline: 'Sit back, Relax, and Nyuza..',
+	headline: 'Step 3',
 	description:
 		"Relax and continue managing your business. We will use the data based on your registartion details to formulate a suitable and flexible plan for your management. So you can continue doing what you love most and check in whenever you feel like as often as you'd want",
 	linkTo: '/download',
