@@ -46,14 +46,10 @@ const Navbar = () => {
 		<IconContext.Provider value={{ color: 'black' }}>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to="/">
-						<NavIcon src="./assets/drop_icon.png" alt="logo" />
-						nyuza
-					</NavLogo>
-					<MobileIcon onClick={handleClick}>
+					{/* <MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}
-					</MobileIcon>
-					<NavMenu show={show}>
+					</MobileIcon> */}
+					{/* <NavMenu show={show}>
 						{data.map((el, index) => (
 							<NavItem key={index}>
 								<NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
@@ -61,7 +57,7 @@ const Navbar = () => {
 								</NavLinks>
 							</NavItem>
 						))}
-					</NavMenu>
+					</NavMenu> */}
 				</NavbarContainer>
 			</Nav>
 		</IconContext.Provider>
