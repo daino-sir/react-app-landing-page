@@ -13,16 +13,16 @@ const Hero = () => {
 				whileHover={{ rotate: 2, scale: 1.02 }}
 				transition={{ duration: 0.3 }}
 				/>
-				<MainHeading>Nyuza</MainHeading>
+				<MainHeading>WANAANGA E-LOANS</MainHeading>
 				<HeroText>
-					For small businesses that are looking to expand in the modern digital age. Find out ore about us  from the sections below
+				Guarantee loans Anywhere and Anytime.
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
-					<HeroButton>Download</HeroButton>
+					<HeroButton>Sign Up</HeroButton>
 					</Link>
 					<Link>
-						<Button>Learn more</Button>
+						<Button>Sign In</Button>
 					</Link>
 				</ButtonWrapper>
 			</Container>

@@ -23,7 +23,7 @@ function Footer() {
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
 							<SocialIcon src="./assets/drop_icon_white.png" />
-							nyuza
+							Wanaanga
 						</FooterLogo>
 						<FooterAddress>
 							Muindi Bingu Street, Delta Building, Luthuli Drive, Nairobi, KENYA
