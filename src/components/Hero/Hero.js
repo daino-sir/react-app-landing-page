@@ -2,17 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton, HeroImg } from './HeroStyles';
+import HeroPicture from '../../assets/imgs/hero-img.png';
 
 const Hero = () => {
 	return (
 		<HeroSection>
 			<Container>
-				<HeroImg 
-				src="./assets/3d-render-hand@2x.jpg"
-				alt='img'
-				whileHover={{ rotate: 2, scale: 1.02 }}
-				transition={{ duration: 0.3 }}
-				/>
 				<MainHeading>WANAANGA E-LOANS</MainHeading>
 				<HeroText>
 				Guarantee loans Anywhere and Anytime.
@@ -25,9 +20,10 @@ const Hero = () => {
 						<HeroButton>Sign In</HeroButton>
 					</Link>
 				</ButtonWrapper>
-			</Container>
-			<Container>
-				
+				<HeroImg 
+				src={HeroPicture}
+				alt='img'
+				/>
 			</Container>
 		</HeroSection>
 	);

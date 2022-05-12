@@ -5,19 +5,18 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Poppins-Regular;
   }
 `;
 
 export const Container = styled.div`
 	width: 100%;
-	max-width: 1300px;
-	margin-right: auto;
-	margin-left: auto;
+	display: flex;
+	flex-direction: row;
 	padding: 0 50px;
 
 	@media screen and (max-width: 960px) {
-		padding: 0 30px;
+		flex-direction: column;
 	}
 `;
 export const MainHeading = styled.h1`
@@ -26,7 +25,6 @@ export const MainHeading = styled.h1`
 	margin-bottom: 0.5rem;
 	color: ${({ inverse }) => (inverse ? '$403ae3' : '#3A73BE')};
 	width: 100%;
-	letter-spacing: 4px;
 	text-align: left;
 	animation: fadeIn 1s;
 `;
@@ -36,11 +34,10 @@ export const Heading = styled.h2`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#FF0000')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : '#FFFFFF')};
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};
-	text-decoration: underline;
 `;
 export const TextWrapper = styled.span`
 	color: ${({ color }) => (color ? color : '')};
@@ -85,7 +82,15 @@ export const Row = styled.div`
 	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
 	flex-wrap: ${({ wrap }) => (wrap ? wrap : '')};
 `;
-
+export const ResponsiveRow = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+	@media screen and (max-width: 768px) {
+		flex-direction: column;
+	}
+`
 export const Column = styled.div`
 	display: flex;
 	flex-direction: column;

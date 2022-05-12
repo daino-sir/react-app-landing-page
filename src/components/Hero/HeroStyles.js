@@ -20,31 +20,7 @@ export const HeroVideo = styled.video`
 export const HeroImg = styled.img`
      width: 40%;
 	 height: 70%;
-	 margin-left: 35%;
-	 top: 15%;
-	 position: absolute;
-	 z-index: -1;
-	 animation: fadeInUp 2s;
-	 @media screen and (max-width: 375px){
-		 display: none;
-		}
-	 @media screen and (max-width: 425px){
-		 display: none;
-		}
-	 @media screen and (max-width: 768px){
-		 width: 80%;
-		 height: 20%;
-		 margin-left: 30;
-		}
-		@media screen and (max-width: 1024px){
-			width: 70%;
-			height: 40%;
-			margin-left: 25%;
-		}
-		@media screen and (max-width: 1440px){
-			width: 40%;
-			margin-left: 50%;
-		}
+
 `
 
 export const HeroText = styled.p`

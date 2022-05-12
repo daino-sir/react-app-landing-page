@@ -16,7 +16,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Section>
-        <Heading>How does it work?</Heading>
+        <Heading>Loan application simplified</Heading>
       </Section>
       <Content {...stepOne} />
       <Content {...stepTwo} />

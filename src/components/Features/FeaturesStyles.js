@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Section } from '../../globalStyles';
 
 export const FeatureSection = styled(Section)`
-background-color: #f99d6c;
+background-color: #E6DD25;
 `
 
 export const FeatureTitle = styled.h2`
@@ -11,7 +11,6 @@ export const FeatureTitle = styled.h2`
 	text-align: center;
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
-	letter-spacing: 0.4rem;
 	margin: auto;
 `;
 
